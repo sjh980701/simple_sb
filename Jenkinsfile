@@ -23,10 +23,10 @@ pipeline {
             }
             post {
                 failure {
-                    sh "echo clone failed"
+                    sh "echo clone failed!!"
                 }
                 success {
-                    sh "echo clone success"
+                    sh "echo clone success!!"
                 }
             }
         }
